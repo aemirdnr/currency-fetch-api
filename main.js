@@ -31,12 +31,10 @@ function getData() {
 
 selectCurrency.addEventListener("change", function() {
     getData()
-    location.reload()
 })
 
 window.setInterval(function() {
     getData()
-    location.reload()
 }, 30000)
 
 getData()
